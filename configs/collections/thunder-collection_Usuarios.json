@@ -1,0 +1,108 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Usuarios",
+    "dateExported": "2024-02-18T09:53:18.282Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d260b861-00f3-49bc-9499-4aec98eecc89",
+            "colId": "ef1f4d3f-6204-4f56-9e34-602a17fc13d6",
+            "containerId": "",
+            "name": "usuariosPost",
+            "url": "http://localhost:3000/api/usuarios",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-18T06:26:14.818Z",
+            "modified": "2024-02-18T09:41:02.718Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"Liam\",\n  \"correo\":\"Liam@kinal.edu.gt\",\n  \"password\":\"123456\",\n  \"role\":\"CLIENTE_ROLE\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "578570b2-517b-4682-b01f-0d09dd3fce2f",
+            "colId": "ef1f4d3f-6204-4f56-9e34-602a17fc13d6",
+            "containerId": "",
+            "name": "usuariosGet",
+            "url": "http://localhost:3000/api/usuarios",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-18T06:26:14.819Z",
+            "modified": "2024-02-18T06:26:14.819Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0b13bfc3-d081-4153-b331-458bd78d3e9f",
+            "colId": "ef1f4d3f-6204-4f56-9e34-602a17fc13d6",
+            "containerId": "",
+            "name": "getUsuarioById",
+            "url": "http://localhost:3000/api/usuarios/65d1ca39e54ee54dd25439fc",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-18T06:26:14.820Z",
+            "modified": "2024-02-18T09:13:55.356Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "69f2eea5-ff98-4efa-8d4e-dcf81a9f5d20",
+            "colId": "ef1f4d3f-6204-4f56-9e34-602a17fc13d6",
+            "containerId": "",
+            "name": "usuariosPut",
+            "url": "http://localhost:3000/api/usuarios/65d1ca39e54ee54dd25439fc",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-02-18T06:26:14.821Z",
+            "modified": "2024-02-18T09:14:21.759Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"Mario\",\n  \"correo\":\"mario@kinal.edu.gt\",\n  \"password\":\"1234567\",\n  \"role\":\"CLIENTE_ROLE\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "677c4bba-dc60-4cf2-b5d6-6370082a8536",
+            "colId": "ef1f4d3f-6204-4f56-9e34-602a17fc13d6",
+            "containerId": "",
+            "name": "usuarioDelete",
+            "url": "http://localhost:3000/api/usuarios/65d1d0bf21209441bd424478",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-02-18T06:26:14.822Z",
+            "modified": "2024-02-18T09:41:41.114Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d6b367a6-56fe-48db-b329-b984e7ecc896",
+            "colId": "ef1f4d3f-6204-4f56-9e34-602a17fc13d6",
+            "containerId": "",
+            "name": "usuarioLogin",
+            "url": "http://localhost:3000/api/usuarios/login",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-02-18T06:52:45.963Z",
+            "modified": "2024-02-18T09:42:38.671Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"correo\":\"mario@kinal.edu.gt\",\n  \"password\":\"123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

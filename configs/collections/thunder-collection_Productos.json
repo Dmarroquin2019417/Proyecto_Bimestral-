@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Productos",
+    "dateExported": "2024-02-18T09:53:42.114Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "1c9c3575-fb66-4568-a71f-e76a2dd1bddf",
+            "colId": "926353c4-7d06-42a2-ae59-e3d79f330981",
+            "containerId": "",
+            "name": "productosPost",
+            "url": "http://localhost:3000/api/productos",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-18T07:30:10.999Z",
+            "modified": "2024-02-18T08:02:48.659Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"Huevos\",\n  \"descripcion\": \"Docena de huevos\",\n  \"precio\": 19.99,\n  \"cantidadDisponible\": 100,\n  \"categoria\": \"65d1b99cd7222b6e1887e620\" \n}\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "365bfcb3-2897-4375-b7b2-a34a1a841d95",
+            "colId": "926353c4-7d06-42a2-ae59-e3d79f330981",
+            "containerId": "",
+            "name": "productosGet",
+            "url": "http://localhost:3000/api/productos",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-18T07:33:08.099Z",
+            "modified": "2024-02-18T07:42:35.583Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8a9c8917-48e1-485f-8274-02ca34f62adc",
+            "colId": "926353c4-7d06-42a2-ae59-e3d79f330981",
+            "containerId": "",
+            "name": "getProductosById",
+            "url": "http://localhost:3000/api/productos",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-18T07:35:12.718Z",
+            "modified": "2024-02-18T07:42:34.324Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "2064f922-e625-4cee-80d9-df3a31838265",
+            "colId": "926353c4-7d06-42a2-ae59-e3d79f330981",
+            "containerId": "",
+            "name": "productosPut",
+            "url": "http://localhost:3000/api/productos/60b80a331c8cc1a24c9b272e",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-02-18T07:35:22.846Z",
+            "modified": "2024-02-18T08:25:20.198Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"Leche\",\n  \"descripcion\": \"Cajas de leche\",\n  \"precio\": 29.99,\n  \"cantidadDisponible\": 150,\n  \"categoria\": \"60b80a331c8cc1a24c9b272e\" \n}\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "3d9939fe-ad38-48c7-bf2e-a74e65dc5527",
+            "colId": "926353c4-7d06-42a2-ae59-e3d79f330981",
+            "containerId": "",
+            "name": "productoDelete",
+            "url": "http://localhost:3000/api/productos",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-02-18T07:35:37.237Z",
+            "modified": "2024-02-18T07:42:44.408Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

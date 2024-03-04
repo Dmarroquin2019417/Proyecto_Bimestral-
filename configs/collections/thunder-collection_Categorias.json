@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Categorias",
+    "dateExported": "2024-02-18T09:53:48.802Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "02eed899-5a03-477b-96ea-b1a0a233e7b1",
+            "colId": "10cf74fc-ae9a-4650-b437-fe49aaadb6c6",
+            "containerId": "",
+            "name": "categoriasPost",
+            "url": "http://localhost:3000/api/categorias",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-18T07:44:21.701Z",
+            "modified": "2024-02-18T08:02:36.284Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"Lacteos\",\n  \"descripcion\": \"Esta Categoria incluye todo tipo de leches, cremas, quesos\"\n}\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "de5082ec-eea6-471b-80a3-dfa6eebf26f5",
+            "colId": "10cf74fc-ae9a-4650-b437-fe49aaadb6c6",
+            "containerId": "",
+            "name": "categoriasGet",
+            "url": "http://localhost:3000/api/categorias",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-18T07:44:39.205Z",
+            "modified": "2024-02-18T07:45:58.710Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a54b3b12-1254-46ed-a3dc-7a86a38a66e4",
+            "colId": "10cf74fc-ae9a-4650-b437-fe49aaadb6c6",
+            "containerId": "",
+            "name": "getCategoriasById",
+            "url": "http://localhost:3000/api/categorias/65d1be5c91e88db809493bce",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-18T07:44:56.395Z",
+            "modified": "2024-02-18T08:23:03.684Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "54b82aff-a85c-44e4-8f9e-c3f7fd090834",
+            "colId": "10cf74fc-ae9a-4650-b437-fe49aaadb6c6",
+            "containerId": "",
+            "name": "categoriasPut",
+            "url": "http://localhost:3000/api/categorias/65d1be5c91e88db809493bce",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-02-18T07:45:07.475Z",
+            "modified": "2024-02-18T08:23:12.173Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"Carnes\",\n  \"descripcion\": \"Esta Categoria incluye todo tipo de carne\"\n}\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "9815eb91-d0e3-4c5f-8aec-7e29d2a7ae88",
+            "colId": "10cf74fc-ae9a-4650-b437-fe49aaadb6c6",
+            "containerId": "",
+            "name": "categoriasDelete",
+            "url": "http://localhost:3000/api/categorias/65d1b99cd7222b6e1887e620",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-02-18T07:45:24.252Z",
+            "modified": "2024-02-18T08:22:41.424Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
