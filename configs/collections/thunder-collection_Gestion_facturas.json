@@ -1,0 +1,43 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Gestion_facturas",
+    "dateExported": "2024-03-08T17:53:47.566Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "157cb720-071e-4aff-9a80-25ce8521a313",
+            "colId": "1af604e1-43a2-4df2-9cad-92732726428e",
+            "containerId": "",
+            "name": "Factura",
+            "url": "http://localhost:3000/gestion/v1/carrito/proceso-compra",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-08T17:51:33.667Z",
+            "modified": "2024-03-08T17:52:23.678Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViMTY2MTVhZTQ3YzM2Nzg2MjE5OTYiLCJpYXQiOjE3MDk5MTk2ODIsImV4cCI6MTcwOTkyMzI4Mn0.pPkGOJc0If5z_pV0rjr7uxZMQyO4eF5ZKBt2iecHKZI"
+                }
+            ],
+            "params": [],
+            "reqType": "post",
+            "tests": []
+        },
+        {
+            "_id": "9cd80292-edbc-4628-bdf2-6cc8da6495a2",
+            "colId": "1af604e1-43a2-4df2-9cad-92732726428e",
+            "containerId": "",
+            "name": "Editar_actura",
+            "url": "",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-03-08T17:52:03.871Z",
+            "modified": "2024-03-08T17:52:07.843Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

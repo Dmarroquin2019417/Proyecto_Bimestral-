@@ -1,0 +1,138 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Productos",
+    "dateExported": "2024-03-08T17:53:31.198Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "3127eabf-de17-4a78-8fa7-7994b14105e4",
+            "colId": "d00c9356-4217-4287-9e9f-9ddaa89055a4",
+            "containerId": "",
+            "name": "productosPost",
+            "url": "http://localhost:3000/gestion/v1/products",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-08T13:34:10.538Z",
+            "modified": "2024-03-08T15:19:44.763Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViMTY2MTVhZTQ3YzM2Nzg2MjE5OTYiLCJpYXQiOjE3MDk5MDkxOTIsImV4cCI6MTcwOTkxMjc5Mn0.i-QXWOkx3FkH9GmovnJiOh4B9yT21kWz1TrkJBAd1ik"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"nombre\": \"Manzanas\",\r\n  \"descripcion\": \"Kilo de manzanas rojas\",\r\n  \"precio\": 3.99,\r\n  \"cantidadDisponible\": 0,\r\n  \"categoria\": \"65d1b99cd7222b6e1887e623\"\r\n}\r\n",
+                "form": []
+            },
+            "reqType": "post",
+            "tests": []
+        },
+        {
+            "_id": "8457235a-4394-4827-977b-f39a515982d1",
+            "colId": "d00c9356-4217-4287-9e9f-9ddaa89055a4",
+            "containerId": "",
+            "name": "productosGet",
+            "url": "http://localhost:3000/gestion/v1/products",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-08T13:34:10.539Z",
+            "modified": "2024-03-08T13:38:25.045Z",
+            "headers": [],
+            "params": [],
+            "reqType": "get",
+            "tests": []
+        },
+        {
+            "_id": "a94675ca-e32a-445c-a5e0-075ca8ec9635",
+            "colId": "d00c9356-4217-4287-9e9f-9ddaa89055a4",
+            "containerId": "",
+            "name": "getProductosById",
+            "url": "http://localhost:3000/gestion/v1/products/65e603929eb1bd0614e4324f",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-03-08T13:34:10.540Z",
+            "modified": "2024-03-08T14:33:27.563Z",
+            "headers": [],
+            "params": [],
+            "reqType": "get",
+            "tests": []
+        },
+        {
+            "_id": "d957de9c-7cad-4705-b4df-019bdd973ec8",
+            "colId": "d00c9356-4217-4287-9e9f-9ddaa89055a4",
+            "containerId": "",
+            "name": "productosPut",
+            "url": "http://localhost:3000/gestion/v1/products/65e603929eb1bd0614e4324f",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-03-08T13:34:10.541Z",
+            "modified": "2024-03-08T14:34:03.389Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViMTY2MTVhZTQ3YzM2Nzg2MjE5OTYiLCJpYXQiOjE3MDk5MDY3MTEsImV4cCI6MTcwOTkxMDMxMX0.l1y8-XrJNYxXqXx2LqtWZSm2t4wsJ4hdkj1vEU5h0YI"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"Leche\",\n  \"descripcion\": \"Cajas de leche\",\n  \"precio\": 29.99,\n  \"cantidadDisponible\": 150,\n  \"categoria\": \"60b80a331c8cc1a24c9b272e\" \n}\n",
+                "form": []
+            },
+            "reqType": "put",
+            "tests": []
+        },
+        {
+            "_id": "a601717b-3543-4f88-889b-09282f27bc56",
+            "colId": "d00c9356-4217-4287-9e9f-9ddaa89055a4",
+            "containerId": "",
+            "name": "productoDelete",
+            "url": "http://localhost:3000/gestion/v1/products/65e601becd05267a4dbf6abb",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-03-08T13:34:10.542Z",
+            "modified": "2024-03-08T14:05:23.552Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViMTY2MTVhZTQ3YzM2Nzg2MjE5OTYiLCJpYXQiOjE3MDk5MDY3MTEsImV4cCI6MTcwOTkxMDMxMX0.l1y8-XrJNYxXqXx2LqtWZSm2t4wsJ4hdkj1vEU5h0YI"
+                }
+            ],
+            "params": [],
+            "reqType": "del",
+            "tests": []
+        },
+        {
+            "_id": "fcc26b82-22b8-4d91-95fe-3f1beb4cd567",
+            "colId": "d00c9356-4217-4287-9e9f-9ddaa89055a4",
+            "containerId": "",
+            "name": "productos_agotados",
+            "url": "http://localhost:3000/gestion/v1/products/agotados",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-03-08T15:17:46.825Z",
+            "modified": "2024-03-08T15:18:27.246Z",
+            "headers": [],
+            "params": [],
+            "reqType": "get",
+            "tests": []
+        },
+        {
+            "_id": "06e97c7a-2c5e-43fd-a739-aabfbe4ffe3f",
+            "colId": "d00c9356-4217-4287-9e9f-9ddaa89055a4",
+            "containerId": "",
+            "name": " productos_más_vendidos",
+            "url": "http://localhost:3000/gestion/v1/products/mas-vendidos",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-03-08T15:18:06.354Z",
+            "modified": "2024-03-08T15:18:40.248Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

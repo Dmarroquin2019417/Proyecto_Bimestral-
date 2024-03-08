@@ -1,0 +1,54 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Compras",
+    "dateExported": "2024-03-08T17:53:43.190Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "b36bd9d9-7882-4692-b455-d863c3bb8afd",
+            "colId": "03e2ad7d-30fd-4820-87c9-69ba872c6173",
+            "containerId": "",
+            "name": "Carrito_compras",
+            "url": "http://localhost:3000/gestion/v1/carrito",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-08T14:03:47.861Z",
+            "modified": "2024-03-08T17:52:45.241Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViMTY2MTVhZTQ3YzM2Nzg2MjE5OTYiLCJpYXQiOjE3MDk5MTk2ODIsImV4cCI6MTcwOTkyMzI4Mn0.pPkGOJc0If5z_pV0rjr7uxZMQyO4eF5ZKBt2iecHKZI"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"productId\": \"65e603729eb1bd0614e43249\"\n}\n",
+                "form": []
+            },
+            "reqType": "post",
+            "tests": []
+        },
+        {
+            "_id": "a0ab019e-2116-4361-b050-9ae757b7b37a",
+            "colId": "03e2ad7d-30fd-4820-87c9-69ba872c6173",
+            "containerId": "",
+            "name": "historial_compras",
+            "url": "http://localhost:3000/gestion/v1/carrito/historial",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-03-08T17:40:12.408Z",
+            "modified": "2024-03-08T17:41:27.327Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViMTY2MTVhZTQ3YzM2Nzg2MjE5OTYiLCJpYXQiOjE3MDk5MTk2ODIsImV4cCI6MTcwOTkyMzI4Mn0.pPkGOJc0If5z_pV0rjr7uxZMQyO4eF5ZKBt2iecHKZI"
+                }
+            ],
+            "params": [],
+            "reqType": "get",
+            "tests": []
+        }
+    ]
+}
