@@ -1,0 +1,113 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Usuarios",
+    "dateExported": "2024-03-09T05:52:27.500Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "2569eff2-449c-4cc7-915a-e8fa91c24445",
+            "colId": "4aca5e01-b9eb-40a2-9d98-e8600a90a85e",
+            "containerId": "",
+            "name": "usuariosPost",
+            "url": "http://localhost:3000/gestion/v1/users",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-08T22:34:23.837Z",
+            "modified": "2024-03-09T04:02:24.200Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"nombre\": \"Pedro\",\n    \"correo\": \"pedro@kinal.edu.gt\",\n    \"password\":\"1234567\",\n    \"role\": \"ADMIN_ROLE\"\n}",
+                "form": []
+            },
+            "reqType": "post",
+            "tests": []
+        },
+        {
+            "_id": "c5553060-ab1a-4279-8de4-6b09f0371054",
+            "colId": "4aca5e01-b9eb-40a2-9d98-e8600a90a85e",
+            "containerId": "",
+            "name": "usuariosGet",
+            "url": "http://localhost:3000/gestion/v1/users",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-08T22:34:23.838Z",
+            "modified": "2024-03-08T22:34:23.838Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a57e7359-c7d9-4fcc-93e1-5ff0e05fb85b",
+            "colId": "4aca5e01-b9eb-40a2-9d98-e8600a90a85e",
+            "containerId": "",
+            "name": "usuariosPut",
+            "url": "http://localhost:3000/gestion/v1/users/65ebf7c9d00bdc7f99769bfc",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-03-08T22:34:23.839Z",
+            "modified": "2024-03-09T05:49:46.324Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViZGYwNGQxMDgxMmVkMmJmOTllOGEiLCJpYXQiOjE3MDk5NjMxOTgsImV4cCI6MTcwOTk2Njc5OH0.HRchF0eRQgoqkvvll95R7UX5gddJ_0ftdW2tJhwnz7Q"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"Esoo\",\n  \"correo\":\"marioooo@kinal.edu.gt\",\n  \"password\":\"1234567\",\n  \"role\":\"CLIENTE_ROLE\"\n}",
+                "form": []
+            },
+            "reqType": "put",
+            "tests": []
+        },
+        {
+            "_id": "7d5b49d9-86f8-445a-b96f-d56a98602396",
+            "colId": "4aca5e01-b9eb-40a2-9d98-e8600a90a85e",
+            "containerId": "",
+            "name": "usuarioDelete",
+            "url": "http://localhost:3000/gestion/v1/users/65ebf7c9d00bdc7f99769bfc",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-03-08T22:34:23.840Z",
+            "modified": "2024-03-09T05:50:01.253Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViZGYwNGQxMDgxMmVkMmJmOTllOGEiLCJpYXQiOjE3MDk5NjMxOTgsImV4cCI6MTcwOTk2Njc5OH0.HRchF0eRQgoqkvvll95R7UX5gddJ_0ftdW2tJhwnz7Q"
+                }
+            ],
+            "params": [],
+            "reqType": "del",
+            "tests": []
+        },
+        {
+            "_id": "2d7db56a-acf6-47e4-b0e0-f7f51c0bc03c",
+            "colId": "4aca5e01-b9eb-40a2-9d98-e8600a90a85e",
+            "containerId": "",
+            "name": "Modificar_Rol",
+            "url": "http://localhost:3000/gestion/v1/users/modificar-rol/65eb96e3809de7800e822fc7",
+            "method": "PUT",
+            "sortNum": 70000,
+            "created": "2024-03-08T22:34:23.841Z",
+            "modified": "2024-03-09T05:50:37.610Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViZGYwNGQxMDgxMmVkMmJmOTllOGEiLCJpYXQiOjE3MDk5NjMxOTgsImV4cCI6MTcwOTk2Njc5OH0.HRchF0eRQgoqkvvll95R7UX5gddJ_0ftdW2tJhwnz7Q"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"role\": \"ADMIN_ROLE\"\n}\n",
+                "form": []
+            },
+            "reqType": "put",
+            "tests": []
+        }
+    ]
+}

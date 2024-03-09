@@ -1,0 +1,91 @@
+[{
+  "_id": {
+    "$oid": "65eb984e809de7800e822fdf"
+  },
+  "nombre": "Manzanas",
+  "descripcion": "Kilo de manzanas rojas",
+  "precio": 3.99,
+  "cantidadDisponible": 0,
+  "estado": true,
+  "createdAt": {
+    "$date": "2024-03-08T22:59:26.891Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-08T22:59:26.891Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65eb9896809de7800e822fe2"
+  },
+  "nombre": "Leche",
+  "descripcion": "Cajas de leche",
+  "precio": 29.99,
+  "cantidadDisponible": 150,
+  "estado": true,
+  "createdAt": {
+    "$date": "2024-03-08T23:00:38.449Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-09T04:56:06.741Z"
+  },
+  "__v": 0,
+  "categoria": {
+    "$oid": "65eb9819809de7800e822fd6"
+  }
+},
+{
+  "_id": {
+    "$oid": "65eb98e0809de7800e822fe5"
+  },
+  "nombre": "Zanahorias",
+  "descripcion": "Bolsa de zanahorias frescas",
+  "precio": 1.79,
+  "cantidadDisponible": 20,
+  "estado": true,
+  "createdAt": {
+    "$date": "2024-03-08T23:01:52.651Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-08T23:01:52.651Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65eb9961809de7800e822fe9"
+  },
+  "nombre": "Pechuga de Pollo",
+  "descripcion": "Pechuga de pollo sin hueso y sin piel",
+  "precio": 8.49,
+  "cantidadDisponible": 0,
+  "estado": true,
+  "createdAt": {
+    "$date": "2024-03-08T23:04:01.144Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-08T23:04:01.144Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ebea801ffb89d0d58dcff6"
+  },
+  "nombre": "Carnitas y chicharrones",
+  "descripcion": "Chicharrones con guacamol y carnitas",
+  "precio": 10,
+  "cantidadDisponible": 10,
+  "categoria": {
+    "$oid": "65eb9820809de7800e822fd9"
+  },
+  "estado": true,
+  "createdAt": {
+    "$date": "2024-03-09T04:50:08.618Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-09T04:50:08.618Z"
+  },
+  "__v": 0
+}]

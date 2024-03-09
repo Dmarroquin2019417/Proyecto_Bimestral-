@@ -1,0 +1,147 @@
+[{
+  "_id": {
+    "$oid": "65ebc530d4674c26fb6fb6fe"
+  },
+  "status": "PURCHASED",
+  "producto": {
+    "$oid": "65eb98e0809de7800e822fe5"
+  },
+  "user": {
+    "$oid": "65eb96e3809de7800e822fc7"
+  },
+  "facturaId": {
+    "$oid": "65ebc536d4674c26fb6fb70f"
+  }
+},
+{
+  "_id": {
+    "$oid": "65ebf74a59d4ae5a6999c9c9"
+  },
+  "status": "PURCHASED",
+  "producto": {
+    "$oid": "65eb9896809de7800e822fe2"
+  },
+  "user": {
+    "$oid": "65ebdf04d10812ed2bf99e8a"
+  }
+},
+{
+  "_id": {
+    "$oid": "65ebf74a59d4ae5a6999c9ce"
+  },
+  "status": "PURCHASED",
+  "producto": {
+    "$oid": "65eb9896809de7800e822fe2"
+  },
+  "user": {
+    "$oid": "65ebdf04d10812ed2bf99e8a"
+  }
+},
+{
+  "_id": {
+    "$oid": "65ebf74a59d4ae5a6999c9d3"
+  },
+  "status": "PURCHASED",
+  "producto": {
+    "$oid": "65eb9896809de7800e822fe2"
+  },
+  "user": {
+    "$oid": "65ebdf04d10812ed2bf99e8a"
+  }
+},
+{
+  "_id": {
+    "$oid": "65ebf82dd00bdc7f99769c23"
+  },
+  "status": "PURCHASED",
+  "producto": {
+    "$oid": "65eb9896809de7800e822fe2"
+  },
+  "user": {
+    "$oid": "65ebdf04d10812ed2bf99e8a"
+  }
+},
+{
+  "_id": {
+    "$oid": "65ebf82dd00bdc7f99769c28"
+  },
+  "status": "PURCHASED",
+  "producto": {
+    "$oid": "65eb9896809de7800e822fe2"
+  },
+  "user": {
+    "$oid": "65ebdf04d10812ed2bf99e8a"
+  }
+},
+{
+  "_id": {
+    "$oid": "65ebf82dd00bdc7f99769c2d"
+  },
+  "status": "PURCHASED",
+  "producto": {
+    "$oid": "65eb9896809de7800e822fe2"
+  },
+  "user": {
+    "$oid": "65ebdf04d10812ed2bf99e8a"
+  }
+},
+{
+  "_id": {
+    "$oid": "65ebf82dd00bdc7f99769c32"
+  },
+  "status": "PURCHASED",
+  "producto": {
+    "$oid": "65eb9896809de7800e822fe2"
+  },
+  "user": {
+    "$oid": "65ebdf04d10812ed2bf99e8a"
+  }
+},
+{
+  "_id": {
+    "$oid": "65ebf82dd00bdc7f99769c37"
+  },
+  "status": "PURCHASED",
+  "producto": {
+    "$oid": "65eb9896809de7800e822fe2"
+  },
+  "user": {
+    "$oid": "65ebdf04d10812ed2bf99e8a"
+  }
+},
+{
+  "_id": {
+    "$oid": "65ebf9e0d00bdc7f99769c6a"
+  },
+  "status": "PURCHASED",
+  "producto": {
+    "$oid": "65eb9896809de7800e822fe2"
+  },
+  "user": {
+    "$oid": "65ebdf04d10812ed2bf99e8a"
+  }
+},
+{
+  "_id": {
+    "$oid": "65ebf9e1d00bdc7f99769c6f"
+  },
+  "status": "PURCHASED",
+  "producto": {
+    "$oid": "65eb9896809de7800e822fe2"
+  },
+  "user": {
+    "$oid": "65ebdf04d10812ed2bf99e8a"
+  }
+},
+{
+  "_id": {
+    "$oid": "65ebf9e1d00bdc7f99769c74"
+  },
+  "status": "PURCHASED",
+  "producto": {
+    "$oid": "65eb9896809de7800e822fe2"
+  },
+  "user": {
+    "$oid": "65ebdf04d10812ed2bf99e8a"
+  }
+}]

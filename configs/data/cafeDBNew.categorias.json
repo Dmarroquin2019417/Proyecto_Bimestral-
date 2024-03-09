@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "65eb97fc809de7800e822fd3"
+  },
+  "nombre": "Lacteos",
+  "descripcion": "Esta Categoria incluye todo tipo de leches, cremas, quesos",
+  "estado": true
+},
+{
+  "_id": {
+    "$oid": "65eb9819809de7800e822fd6"
+  },
+  "nombre": "Frutas y Verduras Frescas",
+  "descripcion": "Esta categoría comprende una amplia variedad de frutas y verduras frescas, cultivadas localmente y de temporada, que ofrecen una fuente nutritiva de vitaminas y minerales para una alimentación equilibrada.",
+  "estado": true
+},
+{
+  "_id": {
+    "$oid": "65eb9820809de7800e822fd9"
+  },
+  "nombre": "Carnes",
+  "descripcion": "Esta Categoria incluye todo tipo de carne",
+  "estado": true
+}]

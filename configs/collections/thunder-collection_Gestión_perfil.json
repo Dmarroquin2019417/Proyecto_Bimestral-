@@ -1,0 +1,33 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Gestión_perfil",
+    "dateExported": "2024-03-09T05:52:14.131Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "5d07f94e-263c-4c9d-9a4f-56dc1aeb9599",
+            "colId": "1c09cab8-0fb3-4674-b527-10bec4799108",
+            "containerId": "",
+            "name": "Editar_perfil",
+            "url": "http://localhost:3000/gestion/v1/users/65e5fd037b12a623be3a760e",
+            "method": "PUT",
+            "sortNum": 10000,
+            "created": "2024-03-09T03:52:29.254Z",
+            "modified": "2024-03-09T03:52:29.254Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViMTY2MTVhZTQ3YzM2Nzg2MjE5OTYiLCJpYXQiOjE3MDk5MDY3MTEsImV4cCI6MTcwOTkxMDMxMX0.l1y8-XrJNYxXqXx2LqtWZSm2t4wsJ4hdkj1vEU5h0YI"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"Mario\",\n  \"correo\":\"mario@kinal.edu.gt\",\n  \"password\":\"1234567\",\n  \"role\":\"CLIENTE_ROLE\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

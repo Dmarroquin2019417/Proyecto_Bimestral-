@@ -1,0 +1,93 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Categorias",
+    "dateExported": "2024-03-09T05:51:38.265Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "b99b0eef-cd54-42dd-953a-38019031c282",
+            "colId": "119f0ac6-c7dc-4102-8580-2a65c89aeb7b",
+            "containerId": "",
+            "name": "categoriasPost",
+            "url": "http://localhost:3000/gestion/v1/category",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-08T22:34:23.602Z",
+            "modified": "2024-03-09T05:47:02.290Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViZGYwNGQxMDgxMmVkMmJmOTllOGEiLCJpYXQiOjE3MDk5NjMxOTgsImV4cCI6MTcwOTk2Njc5OH0.HRchF0eRQgoqkvvll95R7UX5gddJ_0ftdW2tJhwnz7Q"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n\"nombre\": \"Productos Horneados\",\n\"descripcion\": \"Esta categoría abarca una selección de productos horneados frescos, como panes, pasteles, galletas y otros productos de repostería, elaborados con ingredientes de alta calidad y preparados con técnicas tradicionales para garantizar su sabor y textura excepcionales.\"\n}",
+                "form": []
+            },
+            "reqType": "post",
+            "tests": []
+        },
+        {
+            "_id": "31e4c865-f7df-48c9-b348-ef83dc283e0e",
+            "colId": "119f0ac6-c7dc-4102-8580-2a65c89aeb7b",
+            "containerId": "",
+            "name": "categoriasGet",
+            "url": "http://localhost:3000/gestion/v1/category",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-08T22:34:23.604Z",
+            "modified": "2024-03-08T22:34:23.604Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "851269e2-987e-405a-ab61-734a81fed4a1",
+            "colId": "119f0ac6-c7dc-4102-8580-2a65c89aeb7b",
+            "containerId": "",
+            "name": "categoriasPut",
+            "url": "http://localhost:3000/gestion/v1/category/65ebf7e1d00bdc7f99769c00",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-03-08T22:34:23.605Z",
+            "modified": "2024-03-09T05:47:34.136Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViZGYwNGQxMDgxMmVkMmJmOTllOGEiLCJpYXQiOjE3MDk5NjMxOTgsImV4cCI6MTcwOTk2Njc5OH0.HRchF0eRQgoqkvvll95R7UX5gddJ_0ftdW2tJhwnz7Q"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"Carnes\",\n  \"descripcion\": \"Esta Categoria incluye todo tipo de carne\"\n}\n",
+                "form": []
+            },
+            "reqType": "put",
+            "tests": []
+        },
+        {
+            "_id": "6871fa2d-03dc-4d33-8e60-f78881c2d8ad",
+            "colId": "119f0ac6-c7dc-4102-8580-2a65c89aeb7b",
+            "containerId": "",
+            "name": "categoriasDelete",
+            "url": "http://localhost:3000/gestion/v1/category/65ebf7e1d00bdc7f99769c00",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-03-08T22:34:23.606Z",
+            "modified": "2024-03-09T05:47:55.145Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViZGYwNGQxMDgxMmVkMmJmOTllOGEiLCJpYXQiOjE3MDk5NjMxOTgsImV4cCI6MTcwOTk2Njc5OH0.HRchF0eRQgoqkvvll95R7UX5gddJ_0ftdW2tJhwnz7Q"
+                }
+            ],
+            "params": [],
+            "reqType": "del",
+            "tests": []
+        }
+    ]
+}
